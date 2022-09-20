@@ -26,7 +26,6 @@ describe("Lock", function () {
   }
 
   describe("Deployment", function () {
-    z;
     it("Should set the right unlockTime", async function () {
       const { lock, unlockTime } = await loadFixture(deployOneYearLockFixture);
 
